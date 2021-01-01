@@ -37,7 +37,7 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 
 ### Object Mapper
 - [**AutoMapper**](https://github.com/AutoMapper/AutoMapper) 
-	> A convention-based object-object mapper in .NET. 
+	> A convention-based object-object mapper in .NET
 
 	[![GitHub Stars](https://img.shields.io/github/stars/AutoMapper/AutoMapper?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/AutoMapper/AutoMapper)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/AutoMapper?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/AutoMapper)
@@ -57,7 +57,7 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 
 ### Task Scheduler (background job)
 - [**HangFire**](https://github.com/HangfireIO/Hangfire)
-	> An easy way to perform background job processing in your .NET and .NET Core applications. No Windows Service or separate process required
+	> An easy way to perform background job processing in your .NET and .NET Core applications. No Windows Service or separate process required.
 	
 	[![GitHub Stars](https://img.shields.io/github/stars/HangfireIO/Hangfire?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/HangfireIO/Hangfire)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/Hangfire?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Hangfire)
@@ -82,8 +82,17 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/Newtonsoft.Json?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Newtonsoft.Json)
 
 ### Binary Serializer
-- MessagePack
-- Protobuf-Net
+- [**MessagePack**](https://github.com/neuecc/MessagePack-CSharp)
+	> Extremely Fast MessagePack (MsgPack) Serializer for .NET
+
+	[![GitHub Stars](https://img.shields.io/github/stars/neuecc/MessagePack-CSharp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/neuecc/MessagePack-CSharp)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/MessagePack?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MessagePack)
+
+- [**Protobuf-Net**](https://github.com/protobuf-net/protobuf-net)
+	> protobuf-net is a contract based serializer for .NET code, that happens to write data in the "protocol buffers" serialization format engineered by Google.
+	
+	[![GitHub Stars](https://img.shields.io/github/stars/protobuf-net/protobuf-net?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/protobuf-net/protobuf-net)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/protobuf-net?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/protobuf-net)
 
 ### Validation
 - [**FluentValidation**](https://github.com/FluentValidation/FluentValidation)
@@ -106,7 +115,7 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/Microsoft.EntityFrameworkCore?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore)
 
 - [**Dapper**](https://github.com/StackExchange/Dapper)
-	> Dapper - a simple object mapper for .Net
+	> Dapper - a simple object mapper for .NET
 
 	[![GitHub Stars](https://img.shields.io/github/stars/StackExchange/Dapper?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/StackExchange/Dapper)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/Dapper?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Dapper)
@@ -118,18 +127,55 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/linq2db?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/linq2db)
 	
 ### NoSQL
-- MongoDb
-- Elastic
-- Redis
+- [**MongoDb**](https://github.com/mongodb/mongo-csharp-driver)
+	> The official MongoDB C#/.NET Driver provides asynchronous interaction with MongoDB.
+	
+	[![GitHub Stars](https://img.shields.io/github/stars/mongodb/mongo-csharp-driver?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/mongodb/mongo-csharp-driver)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/MongoDB.Driver?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MongoDB.Driver)
+
+- [**Elastic**](https://github.com/elastic/elasticsearch-net)
+	> Exposes all the Elasticsearch API endpoints but leaves you in control of building the request and response bodies. 
+
+	[![GitHub Stars](https://img.shields.io/github/stars/elastic/elasticsearch-net?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/elastic/elasticsearch-net)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/Elasticsearch.Net?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Elasticsearch.Net)
+
+- [**Redis**](https://github.com/StackExchange/StackExchange.Redis)
+	> High performance Redis client, incorporating both synchronous and asynchronous usage.
+	
+	[![GitHub Stars](https://img.shields.io/github/stars/StackExchange/StackExchange.Redis?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/StackExchange/StackExchange.Redis)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/StackExchange.Redis?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/StackExchange.Redis)
 
 ### Commands/Events Dispatcher
-- MediatR
-- Brighter
+- [**MediatR**](https://github.com/jbogard/MediatR)
+	> Simple, unambitious mediator implementation in .NET
+	
+	[![GitHub Stars](https://img.shields.io/github/stars/jbogard/MediatR?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/jbogard/MediatR)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/mediatr?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/mediatr)
+
+- [**Brighter**](https://github.com/BrighterCommand/Brighter)
+	> The Command Dispatcher pattern is an addition to the Command design pattern that decouples the dispatcher for a service from its execution.
+	
+	[![GitHub Stars](https://img.shields.io/github/stars/BrighterCommand/Brighter?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/BrighterCommand/Brighter)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/paramore.brighter?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/paramore.brighter)
 
 ### Http Client / REST
-- Refit
-- RestEase
-- RestSharp
+- [**Refit**](https://github.com/reactiveui/refit)
+	> The automatic type-safe REST library for Xamarin and .NET
+
+	[![GitHub Stars](https://img.shields.io/github/stars/reactiveui/refit?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/reactiveui/refit)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/Refit?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Refit)
+
+- [**RestEase**](https://github.com/canton7/RestEase)
+	> Easy-to-use typesafe REST API client library, which is simple and customisable.
+	
+	[![GitHub Stars](https://img.shields.io/github/stars/canton7/RestEase?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/canton7/RestEase)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/RestEase?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/RestEase)
+
+- [**RestSharp**](https://github.com/restsharp/RestSharp)
+	> Simple REST and HTTP API Client for .NET
+	
+	[![GitHub Stars](https://img.shields.io/github/stars/restsharp/RestSharp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/restsharp/RestSharp)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/RestSharp?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/RestSharp)
 
 ### CSV
 - [**CsvHelper**](https://github.com/JoshClose/CsvHelper)
@@ -153,20 +199,33 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/NodaTime?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/NodaTime)
 
 ### Linq
-- MoreLinq
+- [**MoreLinq**](https://github.com/morelinq/MoreLINQ)
+	> Extensions to LINQ to Objects.
+
+	[![GitHub Stars](https://img.shields.io/github/stars/morelinq/MoreLINQ?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/morelinq/MoreLINQ)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/morelinq?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/morelinq)
 
 ### JWT
 
 ### HtmlParser
-- HtmlAgilityPack
-- AngleSharp
+- [**HtmlAgilityPack**](https://github.com/zzzprojects/html-agility-pack)
+	> HAP is an HTML parser written in C# to read/write DOM and supports plain XPATH or XSLT.
+	
+	[![GitHub Stars](https://img.shields.io/github/stars/zzzprojects/html-agility-pack?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/zzzprojects/html-agility-pack)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/HtmlAgilityPack?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/HtmlAgilityPack)
+
+- [**AngleSharp**](https://github.com/AngleSharp/AngleSharp)
+	> The ultimate angle brackets parser library parsing HTML5, MathML, SVG and CSS to construct a DOM based on the official W3C specifications.
+	
+	[![GitHub Stars](https://img.shields.io/github/stars/AngleSharp/AngleSharp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/AngleSharp/AngleSharp)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/AngleSharp?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/AngleSharp)
 
 ### Profiler
 - [**MiniProfiler**](https://github.com/MiniProfiler/dotnet)
 	> A simple but effective mini-profiler for ASP.NET (and Core) websites.
 
 	[![GitHub Stars](https://img.shields.io/github/stars/MiniProfiler/dotnet?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/MiniProfiler/dotnet)
-		[![NuGet Downloads](https://img.shields.io/nuget/dt/MiniProfiler.AspNetCore.Mvc?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MiniProfiler.AspNetCore.Mvc)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/MiniProfiler.AspNetCore.Mvc?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MiniProfiler.AspNetCore.Mvc)
 
 ### Caching
 - InMemory
@@ -214,12 +273,30 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/NSubstitute?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/NSubstitute)
 
 - Test Data Generator
-	- AutoFixture
-	- NBuilder
+	- [**AutoFixture**](https://github.com/AutoFixture/AutoFixture)
+		> AutoFixture makes it easier for developers to do Test-Driven Development by automating non-relevant Test Fixture Setup, allowing the Test Developer to focus on the essentials of each test case.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/AutoFixture/AutoFixture?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/AutoFixture/AutoFixture)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/AutoFixture?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/AutoFixture)
+	
+	- [**NBuilder**](https://github.com/nbuilder/nbuilder)
+		> Through a fluent, extensible interface, NBuilder allows you to rapidly create test data, automatically assigning values to properties and public fields that are one of the built in .NET data types (e.g. ints and strings). NBuilder allows you to override for properties you are interested in using lambda expressions.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/nbuilder/nbuilder?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/nbuilder/nbuilder)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/nbuilder?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/nbuilder)
 
 ### UI Testing
-- Selenium.WebDriver
-- Puppeteer Sharp
+- [**Selenium.WebDriver**](https://github.com/SeleniumHQ/selenium)
+	> Selenium is a set of different software tools each with a different approach to supporting browser automation. These tools are highly flexible, allowing many options for locating and manipulating elements within a browser, and one of its key features is the support for automating multiple browser platforms.
+	
+	[![GitHub Stars](https://img.shields.io/github/stars/SeleniumHQ/selenium?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/SeleniumHQ/selenium)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/Selenium.WebDriver?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Selenium.WebDriver)
+
+- [**Puppeteer Sharp**](https://github.com/hardkoded/puppeteer-sharp)
+	>  Headless Chrome .NET API
+
+	[![GitHub Stars](https://img.shields.io/github/stars/hardkoded/puppeteer-sharp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/hardkoded/puppeteer-sharp)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/PuppeteerSharp?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/PuppeteerSharp)
 
 ### OpenAPI
 - [**Swagger (Swashbuckle)**](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
