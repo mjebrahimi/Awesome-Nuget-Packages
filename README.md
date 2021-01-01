@@ -189,7 +189,7 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 ### Functional Programming
 
 ## Contribution
-Contributions welcome! Feel free to open an [issue][issues] or create a pull request.
+Contributions are always welcome! Feel free to open an [issue][issues] or create a pull request.
 
 ## License
 [![CC0][license-badge]][license]
