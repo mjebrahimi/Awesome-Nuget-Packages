@@ -49,7 +49,11 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/Mapster?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Mapster)
 
 ### IoC
-- Autofac
+- [**Autofac**](https://github.com/autofac/Autofac)
+	> Autofac is an IoC container for .NET. It manages the dependencies between classes so that applications stay easy to change as they grow in size and complexity.
+
+	[![GitHub Stars](https://img.shields.io/github/stars/autofac/Autofac?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/autofac/Autofac)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/Autofac?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Autofac)
 
 ### Task Scheduler (background job)
 - [**HangFire**](https://github.com/HangfireIO/Hangfire)
@@ -158,7 +162,11 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 - AngleSharp
 
 ### Profiler
-- MiniProfiler
+- [**MiniProfiler**](https://github.com/MiniProfiler/dotnet)
+	> A simple but effective mini-profiler for ASP.NET (and Core) websites.
+
+	[![GitHub Stars](https://img.shields.io/github/stars/MiniProfiler/dotnet?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/MiniProfiler/dotnet)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/MiniProfiler.AspNetCore.Mvc?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MiniProfiler.AspNetCore.Mvc)
 
 ### Caching
 - InMemory
@@ -167,14 +175,44 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 
 ### Testing
 - Test Frameworks
-	- xUnit
-	- NUnit
+	- [**xUnit**](https://github.com/xunit/xunit)
+		> xUnit is a developer testing framework, built to support Test Driven Development, with a design goal of extreme simplicity and alignment with framework features.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/xunit/xunit?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/xunit/xunit)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/xunit?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/xunit)
+	
+	- [**NUnit**](https://github.com/nunit/nunit)
+		> NUnit is a unit-testing framework for all .NET languages.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/nunit/nunit?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/nunit/nunit)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/NUnit?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/NUnit)
+
 - Asseration
-	- FluentAssertions
+	- [**FluentAssertions**](https://github.com/fluentassertions/fluentassertions)
+		> A very extensive set of extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style unit tests. 
+
+		[![GitHub Stars](https://img.shields.io/github/stars/fluentassertions/fluentassertions?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/fluentassertions/fluentassertions)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/FluentAssertions?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/FluentAssertions)
+
 - Mocking
-	- Moq
-	- FakeItEasy
-	- NSubstitute
+	- [**Moq**](https://github.com/moq/moq4)
+		> The most popular and friendly mocking library for .NET
+
+		[![GitHub Stars](https://img.shields.io/github/stars/moq/moq4?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/moq/moq4)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Moq?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Moq)
+
+	- [**FakeItEasy**](https://github.com/FakeItEasy/FakeItEasy)
+		> A .NET dynamic fake library for creating all types of fake objects, mocks, stubs etc.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/FakeItEasy/FakeItEasy?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/FakeItEasy/FakeItEasy)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/FakeItEasy?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/FakeItEasy)
+	
+	- [**NSubstitute**](https://github.com/nsubstitute/NSubstitute)
+		> A friendly substitute for .NET mocking libraries.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/nsubstitute/NSubstitute?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/nsubstitute/NSubstitute)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/NSubstitute?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/NSubstitute)
+
 - Test Data Generator
 	- AutoFixture
 	- NBuilder
@@ -184,8 +222,12 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 - Puppeteer Sharp
 
 ### OpenAPI
-- Swagger (Swashbackle)
+- [**Swagger (Swashbuckle)**](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
+	> Swagger tooling for API's built with ASP.NET Core. Generate beautiful API documentation, including a UI to explore and test operations, directly from your routes, controllers and models.
 	
+	[![GitHub Stars](https://img.shields.io/github/stars/domaindrivendev/Swashbuckle.AspNetCore?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/swashbuckle.aspnetcore?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/swashbuckle.aspnetcore)
+
 ### Functional Programming
 
 ## Contribution
