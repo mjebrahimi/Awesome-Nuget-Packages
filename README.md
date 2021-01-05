@@ -19,6 +19,7 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 - [Http Client - REST](#http-client---rest)
 - [CSV](#csv)
 - [Excel](#excel)
+- [PDF](#pdf)
 - [DateTime](#datetime)
 - [Linq](#linq)
 - [JWT](#jwt)
@@ -190,6 +191,22 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 
 	[![GitHub Stars](https://img.shields.io/github/stars/JanKallman/EPPlus?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/JanKallman/EPPlus)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/EPPlus?label=Downloads&logo=nuget&cacheSeconds=3600)]( https://www.nuget.org/packages/EPPlus)
+	
+### PDF
+- [**FastReport**](https://github.com/FastReports/FastReport)
+	> FastReport provides free open source report generator for .NET 5/.NET Core/.NET Framework. You can use the FastReport Open Source in MVC, Web API, console applications.
+
+	[![GitHub Stars](https://img.shields.io/github/stars/JanKallman/EPPlus?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/FastReports/FastReport)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/EPPlus?label=Downloads&logo=nuget&cacheSeconds=3600)]( https://github.com/FastReports/FastReport)
+	
+- [**PdfReport.Core**](https://github.com/VahidN/PdfReport.Core)
+	> PdfReport.Core is a code first reporting engine, which is built on top of the iTextSharp.LGPLv2.Core and EPPlus.Core libraries
+	
+	[![GitHub Stars](https://img.shields.io/github/stars/JanKallman/EPPlus?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/VahidN/PdfReport.Core)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/EPPlus?label=Downloads&logo=nuget&cacheSeconds=3600)](https://github.com/VahidN/PdfReport.Core)
+	
+	
+
 	
 ### DateTime
 - [**NodaTime**](https://github.com/nodatime/nodatime)
