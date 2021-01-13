@@ -29,6 +29,7 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 - [UI Testing](#ui-testing)
 - [OpenAPI](#openapi)
 - [Functional Programming](#functional-programming)
+- [Logging](#logging)
 
 ## Libraries
 <!--
@@ -306,6 +307,13 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/swashbuckle.aspnetcore?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/swashbuckle.aspnetcore)
 
 ### Functional Programming
+
+### Logging
+- [**Serilog**](https://github.com/serilog/serilog)
+	> Serilog is a diagnostic logging library for .NET applications. It is easy to set up, has a clean API, and runs on all recent .NET platforms.
+	
+	[![GitHub Stars](https://img.shields.io/github/stars/serilog/serilog?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/serilog/serilog)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/serilog?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/serilog)
 
 ## Contribution
 Contributions are always welcome! Feel free to open an [issue][issues] or create a pull request.
