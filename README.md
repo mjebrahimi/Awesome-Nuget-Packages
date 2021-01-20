@@ -146,6 +146,12 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![GitHub Stars](https://img.shields.io/github/stars/StackExchange/StackExchange.Redis?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/StackExchange/StackExchange.Redis)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/StackExchange.Redis?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/StackExchange.Redis)
 
+- [**LiteDB**](https://github.com/mbdavid/litedb)
+	> LiteDB is a small, fast and lightweight .NET NoSQL embedded database.
+	
+	[![GitHub Stars](https://img.shields.io/github/stars/mbdavid/litedb?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/mbdavid/litedb)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/LiteDB?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/LiteDB)
+
 ### Commands/Events Dispatcher
 - [**MediatR**](https://github.com/jbogard/MediatR)
 	> Simple, unambitious mediator implementation in .NET
