@@ -320,6 +320,12 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![GitHub Stars](https://img.shields.io/github/stars/domaindrivendev/Swashbuckle.AspNetCore?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/swashbuckle.aspnetcore?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/swashbuckle.aspnetcore)
 
+- [**NSwag**](https://github.com/RicoSuter/NSwag)
+	> The OpenAPI/Swagger API toolchain for .NET and TypeScript.
+
+	[![GitHub Stars](https://img.shields.io/github/stars/RicoSuter/NSwag?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/RicoSuter/NSwag)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/NSwag.AspNetCore?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/NSwag.AspNetCore)
+
 ### Functional Programming
 
 ### Logging
