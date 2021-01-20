@@ -15,6 +15,7 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 - [Validation](#validation)
 - [ORM](#orm)
 - [NoSQL](#nosql)
+- [Query Builder](#query-builder)
 - [Commands/Events Dispatcher](#commands-events-dispatcher)
 - [Http Client - REST](#http-client---rest)
 - [CSV](#csv)
@@ -151,6 +152,13 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	
 	[![GitHub Stars](https://img.shields.io/github/stars/mbdavid/litedb?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/mbdavid/litedb)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/LiteDB?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/LiteDB)
+
+### Query Builder
+- [**SqlKata**](https://github.com/sqlkata/querybuilder)
+	> SqlKata Query Builder is a powerful SQL Query Builder written in C#.
+	
+	[![GitHub Stars](https://img.shields.io/github/stars/sqlkata/querybuilder?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/sqlkata/querybuilder)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/SqlKata?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/SqlKata)
 
 ### Commands/Events Dispatcher
 - [**MediatR**](https://github.com/jbogard/MediatR)
