@@ -29,8 +29,9 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 - [Testing](#testing)
 - [UI Testing](#ui-testing)
 - [OpenAPI](#openapi)
-- [Functional Programming](#functional-programming)
 - [Logging](#logging)
+- [Console](#console)
+- [Functional Programming](#functional-programming)
 
 ## Libraries
 <!--
@@ -334,6 +335,13 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	
 	[![GitHub Stars](https://img.shields.io/github/stars/serilog/serilog?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/serilog/serilog)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/serilog?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/serilog)
+
+### Console
+- [**Spectre.Console**](https://github.com/spectresystems/spectre.console)
+	> A library that makes it easier to create beautiful, cross platform, console applications.
+	
+	[![GitHub Stars](https://img.shields.io/github/stars/spectresystems/spectre.console?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/spectresystems/spectre.console)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/spectre.console?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/spectre.console)
 
 ## Contribution
 Contributions are always welcome! Feel free to open an [issue][issues] or create a pull request.
