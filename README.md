@@ -327,8 +327,6 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![GitHub Stars](https://img.shields.io/github/stars/RicoSuter/NSwag?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/RicoSuter/NSwag)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/NSwag.AspNetCore?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/NSwag.AspNetCore)
 
-### Functional Programming
-
 ### Logging
 - [**Serilog**](https://github.com/serilog/serilog)
 	> Serilog is a diagnostic logging library for .NET applications. It is easy to set up, has a clean API, and runs on all recent .NET platforms.
@@ -336,12 +334,20 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![GitHub Stars](https://img.shields.io/github/stars/serilog/serilog?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/serilog/serilog)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/serilog?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/serilog)
 
+- [**NLog**](https://github.com/NLog/NLog)
+	> NLog is a free logging platform for .NET with rich log routing and management capabilities. It makes it easy to produce and manage high-quality logs for your application regardless of its size or complexity.
+
+	[![GitHub Stars](https://img.shields.io/github/stars/NLog/NLog?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/NLog/NLog)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/NLog?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/NLog)
+
 ### Console
 - [**Spectre.Console**](https://github.com/spectresystems/spectre.console)
 	> A library that makes it easier to create beautiful, cross platform, console applications.
 	
 	[![GitHub Stars](https://img.shields.io/github/stars/spectresystems/spectre.console?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/spectresystems/spectre.console)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/spectre.console?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/spectre.console)
+
+### Functional Programming
 
 ## Contribution
 Contributions are always welcome! Feel free to open an [issue][issues] or create a pull request.
