@@ -196,14 +196,14 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 - [**FastReport**](https://github.com/FastReports/FastReport)
 	> FastReport provides free open source report generator for .NET 5/.NET Core/.NET Framework. You can use the FastReport Open Source in MVC, Web API, console applications.
 
-	[![GitHub Stars](https://img.shields.io/github/stars/JanKallman/EPPlus?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/FastReports/FastReport)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/EPPlus?label=Downloads&logo=nuget&cacheSeconds=3600)]( https://github.com/FastReports/FastReport)
+	[![GitHub Stars](https://img.shields.io/github/stars/FastReports/FastReport?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/FastReports/FastReport)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/FastReport.OpenSource?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/FastReport.OpenSource/)
 	
 - [**PdfReport.Core**](https://github.com/VahidN/PdfReport.Core)
 	> PdfReport.Core is a code first reporting engine, which is built on top of the iTextSharp.LGPLv2.Core and EPPlus.Core libraries
 	
-	[![GitHub Stars](https://img.shields.io/github/stars/JanKallman/EPPlus?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/VahidN/PdfReport.Core)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/EPPlus?label=Downloads&logo=nuget&cacheSeconds=3600)](https://github.com/VahidN/PdfReport.Core)
+	[![GitHub Stars](https://img.shields.io/github/stars/VahidN/PdfReport.Core?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/VahidN/PdfReport.Core)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/PdfRpt.Core?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/PdfRpt.Core/)
 	
 	
 
