@@ -202,10 +202,10 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/CsvHelper?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/CsvHelper)
 
 ### Excel
-- [**EPPlus**](https://github.com/JanKallman/EPPlus)
+- [**EPPlus**](https://github.com/EPPlusSoftware/EPPlus)
 	> Create advanced Excel spreadsheets using .NET
 
-	[![GitHub Stars](https://img.shields.io/github/stars/JanKallman/EPPlus?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/JanKallman/EPPlus)
+	[![GitHub Stars](https://img.shields.io/github/stars/EPPlusSoftware/EPPlus?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/EPPlusSoftware/EPPlus)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/EPPlus?label=Downloads&logo=nuget&cacheSeconds=3600)]( https://www.nuget.org/packages/EPPlus)
 	
 ### PDF
