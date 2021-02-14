@@ -9,18 +9,15 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 ## Contents
 - [Object Mapper](#object-mapper)
 - [IoC](#ioc)
-- [Task Scheduler (Background Job)](#task-scheduler--background-job-)
-- [Json Serializer](#json-serializer)
-- [Binary Serializer](#binary-serializer)
+- [Task Scheduler/Background Job](#task-scheduler--background-job)
+- [Serialization](#serialization)
 - [Validation](#validation)
 - [ORM](#orm)
 - [NoSQL](#nosql)
 - [Query Builder](#query-builder)
-- [Commands/Events Dispatcher](#commands-events-dispatcher)
-- [Http Client - REST](#http-client---rest)
-- [CSV](#csv)
-- [Excel](#excel)
-- [PDF](#pdf)
+- [Commands/Events Dispatcher](#commandsevents-dispatcher)
+- [Http Client - REST](#http-client--rest)
+- [Excel, CSV, Word, and PDF](#excel-csv-word-and-pdf)
 - [DateTime](#datetime)
 - [Linq](#linq)
 - [JWT](#jwt)
@@ -32,7 +29,6 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 - [OpenAPI](#openapi)
 - [Logging](#logging)
 - [Console](#console)
-- [Functional Programming](#functional-programming)
 
 ## Libraries
 <!--
@@ -59,7 +55,7 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![GitHub Stars](https://img.shields.io/github/stars/autofac/Autofac?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/autofac/Autofac)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/Autofac?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Autofac)
 
-### Task Scheduler (background job)
+### Task Scheduler / Background Job
 - [**HangFire**](https://github.com/HangfireIO/Hangfire)
 	> An easy way to perform background job processing in your .NET and .NET Core applications. No Windows Service or separate process required.
 	
@@ -78,25 +74,32 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![GitHub Stars](https://img.shields.io/github/stars/jamesmh/coravel?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/jamesmh/coravel)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/Coravel?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Coravel)
 
-### Json Serializer
-- [**Newtonsoft.Json (Json.NET)**](https://github.com/JamesNK/Newtonsoft.Json)
-	> Json .NET is a popular high-performance JSON framework for .NET
+### Serialization
+- Json Serializer
+	- [**Newtonsoft.Json (Json.NET)**](https://github.com/JamesNK/Newtonsoft.Json)
+		> Json .NET is a popular high-performance JSON framework for .NET
 
-	[![GitHub Stars](https://img.shields.io/github/stars/JamesNK/Newtonsoft.Json?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/JamesNK/Newtonsoft.Json)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/Newtonsoft.Json?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Newtonsoft.Json)
+		[![GitHub Stars](https://img.shields.io/github/stars/JamesNK/Newtonsoft.Json?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/JamesNK/Newtonsoft.Json)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Newtonsoft.Json?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Newtonsoft.Json)
 
-### Binary Serializer
-- [**MessagePack**](https://github.com/neuecc/MessagePack-CSharp)
-	> Extremely Fast MessagePack (MsgPack) Serializer for .NET
+- Binary Serializer
+	- [**MessagePack**](https://github.com/neuecc/MessagePack-CSharp)
+		> Extremely Fast MessagePack (MsgPack) Serializer for .NET
 
-	[![GitHub Stars](https://img.shields.io/github/stars/neuecc/MessagePack-CSharp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/neuecc/MessagePack-CSharp)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/MessagePack?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MessagePack)
+		[![GitHub Stars](https://img.shields.io/github/stars/neuecc/MessagePack-CSharp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/neuecc/MessagePack-CSharp)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/MessagePack?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MessagePack)
 
-- [**Protobuf-Net**](https://github.com/protobuf-net/protobuf-net)
-	> protobuf-net is a contract based serializer for .NET code, that happens to write data in the "protocol buffers" serialization format engineered by Google.
-	
-	[![GitHub Stars](https://img.shields.io/github/stars/protobuf-net/protobuf-net?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/protobuf-net/protobuf-net)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/protobuf-net?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/protobuf-net)
+	- [**Protobuf-Net**](https://github.com/protobuf-net/protobuf-net)
+		> protobuf-net is a contract based serializer for .NET code, that happens to write data in the "protocol buffers" serialization format engineered by Google.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/protobuf-net/protobuf-net?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/protobuf-net/protobuf-net)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/protobuf-net?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/protobuf-net)
+
+- XML Serializer
+	- [**System.Xml.XmlSerializer**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer)
+		> Provides classes for serializing objects to the Extensible Markup Language (XML) and deserializing XML data to objects.
+		
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/System.Xml.XmlSerializer?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/System.Xml.XmlSerializer)
 
 ### Validation
 - [**FluentValidation**](https://github.com/FluentValidation/FluentValidation)
@@ -143,7 +146,7 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![GitHub Stars](https://img.shields.io/github/stars/elastic/elasticsearch-net?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/elastic/elasticsearch-net)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/Elasticsearch.Net?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Elasticsearch.Net)
 
-- [**Redis**](https://github.com/StackExchange/StackExchange.Redis)
+- [**StackExchange.Redis**](https://github.com/StackExchange/StackExchange.Redis)
 	> High performance Redis client, incorporating both synchronous and asynchronous usage.
 	
 	[![GitHub Stars](https://img.shields.io/github/stars/StackExchange/StackExchange.Redis?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/StackExchange/StackExchange.Redis)
@@ -194,35 +197,33 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![GitHub Stars](https://img.shields.io/github/stars/restsharp/RestSharp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/restsharp/RestSharp)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/RestSharp?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/RestSharp)
 
-### CSV
-- [**CsvHelper**](https://github.com/JoshClose/CsvHelper)
-	> Library to help reading and writing CSV files
+### Excel, CSV, Word, and PDF
+- CSV
+	- [**CsvHelper**](https://github.com/JoshClose/CsvHelper)
+		> Library to help reading and writing CSV files
 
-	[![GitHub Stars](https://img.shields.io/github/stars/JoshClose/CsvHelper?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/JoshClose/CsvHelper)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/CsvHelper?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/CsvHelper)
+		[![GitHub Stars](https://img.shields.io/github/stars/JoshClose/CsvHelper?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/JoshClose/CsvHelper)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/CsvHelper?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/CsvHelper)
 
-### Excel
-- [**EPPlus**](https://github.com/EPPlusSoftware/EPPlus)
-	> Create advanced Excel spreadsheets using .NET
+- Excel
+	- [**EPPlus**](https://github.com/EPPlusSoftware/EPPlus)
+		> Create advanced Excel spreadsheets using .NET
 
-	[![GitHub Stars](https://img.shields.io/github/stars/EPPlusSoftware/EPPlus?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/EPPlusSoftware/EPPlus)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/EPPlus?label=Downloads&logo=nuget&cacheSeconds=3600)]( https://www.nuget.org/packages/EPPlus)
+		[![GitHub Stars](https://img.shields.io/github/stars/EPPlusSoftware/EPPlus?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/EPPlusSoftware/EPPlus)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/EPPlus?label=Downloads&logo=nuget&cacheSeconds=3600)]( https://www.nuget.org/packages/EPPlus)
 	
-### PDF
-- [**FastReport**](https://github.com/FastReports/FastReport)
-	> FastReport provides free open source report generator for .NET 5/.NET Core/.NET Framework. You can use the FastReport Open Source in MVC, Web API, console applications.
+- PDF
+	- [**FastReport**](https://github.com/FastReports/FastReport)
+		> FastReport provides free open source report generator for .NET 5/.NET Core/.NET Framework. You can use the FastReport Open Source in MVC, Web API, console applications.
 
-	[![GitHub Stars](https://img.shields.io/github/stars/FastReports/FastReport?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/FastReports/FastReport)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/FastReport.OpenSource?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/FastReport.OpenSource/)
+		[![GitHub Stars](https://img.shields.io/github/stars/FastReports/FastReport?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/FastReports/FastReport)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/FastReport.OpenSource?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/FastReport.OpenSource/)
 	
-- [**PdfReport.Core**](https://github.com/VahidN/PdfReport.Core)
-	> PdfReport.Core is a code first reporting engine, which is built on top of the iTextSharp.LGPLv2.Core and EPPlus.Core libraries
-	
-	[![GitHub Stars](https://img.shields.io/github/stars/VahidN/PdfReport.Core?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/VahidN/PdfReport.Core)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/PdfRpt.Core?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/PdfRpt.Core/)
-	
-	
-
+	- [**PdfReport.Core**](https://github.com/VahidN/PdfReport.Core)
+		> PdfReport.Core is a code first reporting engine, which is built on top of the iTextSharp.LGPLv2.Core and EPPlus.Core libraries
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/VahidN/PdfReport.Core?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/VahidN/PdfReport.Core)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/PdfRpt.Core?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/PdfRpt.Core/)
 	
 ### DateTime
 - [**NodaTime**](https://github.com/nodatime/nodatime)
@@ -262,8 +263,37 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 
 ### Caching
 - InMemory
+	- [**Microsoft.Extensions.Caching.Memory**](https://docs.microsoft.com/aspnet/core/performance/caching/memory)
+		> In-memory cache implementation of Microsoft.Extensions.Caching.Memory.IMemoryCache.
+
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Microsoft.Extensions.Caching.Memory?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Microsoft.Extensions.Caching.Memory)
+
 - Distributed
-- Caching Abstraction
+	- [**StackExchange.Redis**](https://github.com/StackExchange/StackExchange.Redis)
+		> High performance Redis client, incorporating both synchronous and asynchronous usage.
+	
+		[![GitHub Stars](https://img.shields.io/github/stars/StackExchange/StackExchange.Redis?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/StackExchange/StackExchange.Redis)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/StackExchange.Redis?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/StackExchange.Redis)
+
+	- [**ServiceStack.Redis**](https://github.com/ServiceStack/ServiceStack.Redis)
+		> ServiceStack Redis Client is a simple, high-performance and feature-rich Client for Redis with native support and high-level abstractions for serializing POCOs and Complex Types.
+	
+		[![GitHub Stars](https://img.shields.io/github/stars/ServiceStack/ServiceStack.Redis?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/ServiceStack/ServiceStack.Redis)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/ServiceStack.Redis?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/ServiceStack.Redis) 
+
+- Caching Frameworks
+	- [**CacheManager.Core**](https://github.com/MichaCo/CacheManager)
+		> CacheManager is an open source caching abstraction layer for .NET written in C#. It supports various cache providers and implements many advanced features.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/MichaCo/CacheManager?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/MichaCo/CacheManager)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/CacheManager.Core?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/CacheManager.Core)
+
+- Second Level Cache
+	- [**EF Core Second Level Cache Interceptor**](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
+		> Entity Framework Core Second Level Caching Library.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/VahidN/EFCoreSecondLevelCacheInterceptor?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/EFCoreSecondLevelCacheInterceptor?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/EFCoreSecondLevelCacheInterceptor)
 
 ### Testing
 - Test Frameworks
@@ -285,7 +315,7 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 		[![GitHub Stars](https://img.shields.io/github/stars/ivaylokenov/MyTested.AspNetCore.Mvc?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/ivaylokenov/MyTested.AspNetCore.Mvc)
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/MyTested.AspNetCore.Mvc?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MyTested.AspNetCore.Mvc/)
 
-- Asseration
+- Asserations
 	- [**FluentAssertions**](https://github.com/fluentassertions/fluentassertions)
 		> A very extensive set of extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style unit tests. 
 
@@ -351,17 +381,25 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/NSwag.AspNetCore?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/NSwag.AspNetCore)
 
 ### Logging
-- [**Serilog**](https://github.com/serilog/serilog)
-	> Serilog is a diagnostic logging library for .NET applications. It is easy to set up, has a clean API, and runs on all recent .NET platforms.
-	
-	[![GitHub Stars](https://img.shields.io/github/stars/serilog/serilog?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/serilog/serilog)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/serilog?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/serilog)
+- Logging libraries
+	- [**Serilog**](https://github.com/serilog/serilog)
+		> Serilog is a diagnostic logging library for .NET applications. It is easy to set up, has a clean API, and runs on all recent .NET platforms.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/serilog/serilog?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/serilog/serilog)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/serilog?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/serilog)
 
-- [**NLog**](https://github.com/NLog/NLog)
-	> NLog is a free logging platform for .NET with rich log routing and management capabilities. It makes it easy to produce and manage high-quality logs for your application regardless of its size or complexity.
+	- [**NLog**](https://github.com/NLog/NLog)
+		> NLog is a free logging platform for .NET with rich log routing and management capabilities. It makes it easy to produce and manage high-quality logs for your application regardless of its size or complexity.
 
-	[![GitHub Stars](https://img.shields.io/github/stars/NLog/NLog?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/NLog/NLog)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/NLog?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/NLog)
+		[![GitHub Stars](https://img.shields.io/github/stars/NLog/NLog?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/NLog/NLog)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/NLog?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/NLog)
+
+- Logging Management
+	- [**Sentry**](https://github.com/getsentry/sentry-dotnet)
+		> Open-source error tracking that helps developers monitor and fix crashes in real time.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/getsentry/sentry-dotnet?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/getsentry/sentry-dotnet)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Sentry?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Sentry)
 
 ### Console
 - [**Spectre.Console**](https://github.com/spectresystems/spectre.console)
@@ -369,8 +407,6 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	
 	[![GitHub Stars](https://img.shields.io/github/stars/spectresystems/spectre.console?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/spectresystems/spectre.console)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/spectre.console?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/spectre.console)
-
-### Functional Programming
 
 ## Contribution
 Contributions are always welcome! Feel free to open an [issue][issues] or create a pull request.
