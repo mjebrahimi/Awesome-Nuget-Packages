@@ -1,6 +1,6 @@
-# Top .NET Libraries You Must Know [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+# 📦 Awesome DotNet Packages [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-	Most popular .NET libraries every developer should know.
+    A collection of awesome and top .NET packages sorted by most popular needs.
 
 ## Give a Star! ⭐️
 
@@ -416,6 +416,6 @@ Contributions are always welcome! Feel free to open an [issue][issues] or create
 
 To the extent possible under law, [Mohammad Javad Ebrahimi](https://github.com/mjebrahimi) has waived all copyright and related or neighboring rights to this work.
 
-[issues]: https://github.com/mjebrahimi/Top-NET-Libraries-Must-Know/issues/new
+[issues]: https://github.com/mjebrahimi/Awesome-DotNet-Packages/issues/new
 [license]: https://creativecommons.org/publicdomain/zero/1.0
 [license-badge]: https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg
