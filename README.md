@@ -17,6 +17,7 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 - [Query Builder](#query-builder)
 - [Commands/Events Dispatcher](#commandsevents-dispatcher)
 - [Http Client - REST](#http-client--rest)
+- [Security](#security)
 - [Excel, CSV, Word, and PDF](#excel-csv-word-and-pdf)
 - [DateTime](#datetime)
 - [Linq](#linq)
@@ -197,6 +198,62 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![GitHub Stars](https://img.shields.io/github/stars/restsharp/RestSharp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/restsharp/RestSharp)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/RestSharp?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/RestSharp)
 
+### Security
+- Security Libraries
+	- [**NWebsec**](https://github.com/NWebsec/NWebsec)
+		> NWebsec consists of several security libraries for ASP.NET applications.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/NWebsec/NWebsec?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/NWebsec/NWebsec)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/NWebsec.AspNetCore.Core?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/NWebsec.AspNetCore.Core)
+
+- Authentication and Authorization
+	- [**Microsoft.AspNetCore.Identity**](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity)
+		> ASP.NET Core Identity is the membership system for building ASP.NET Core web applications, including membership, login, and user data. ASP.NET Core Identity allows you to add login features to your application and makes it easy to customize data about the logged in user.
+
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Microsoft.AspNetCore.Identity?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Microsoft.AspNetCore.Identity)
+
+	- [**IdentityServer4**](https://github.com/IdentityServer/IdentityServer4)
+		> IdentityServer is a free, open source OpenID Connect and OAuth 2.0 framework for ASP.NET Core.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/IdentityServer/IdentityServer4?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/IdentityServer/IdentityServer4)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/IdentityServer4?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/IdentityServer4)
+
+- Captcha
+	- [**PaulMiami.AspNetCore.Mvc.Recaptcha**](https://github.com/PaulMiami/reCAPTCHA)
+		> The reCAPTCHA 2.0 for ASPNET Core.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/PaulMiami/reCAPTCHA?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/PaulMiami/reCAPTCHA)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/PaulMiami.AspNetCore.Mvc.Recaptcha?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/PaulMiami.AspNetCore.Mvc.Recaptcha)
+
+- Password Valdiator/Generator
+	- [**PasswordGenerator**](https://github.com/prjseal/PasswordGenerator)
+		> A library which generates random passwords with different settings to meet the OWASP requirements.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/prjseal/PasswordGenerator?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/prjseal/PasswordGenerator)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/PasswordGenerator?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/PasswordGenerator)
+
+- Cryptography
+	- [**Portable.BouncyCastle**](https://github.com/novotnyllc/bc-csharp)
+		> A library which generates random passwords with different settings to meet the OWASP requirements.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/novotnyllc/bc-csharp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/novotnyllc/bc-csharp)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Portable.BouncyCastle?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Portable.BouncyCastle)
+
+### Compression
+- Zip Compression
+	- [**SharpZipLib**](https://github.com/icsharpcode/SharpZipLib)
+		> #ziplib is a Zip, GZip, Tar and BZip2 library written entirely in C# for the .NET platform.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/icsharpcode/SharpZipLib?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/icsharpcode/SharpZipLib)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/SharpZipLib?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/SharpZipLib)
+
+- Compression Algorithms
+	- [**Brotli.NET**](https://github.com/XieJJ99/brotli.net)
+		> The .NET implementation of the brotli algorithm, provides similar interface to Google official API.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/XieJJ99/brotli.net?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/XieJJ99/brotli.net)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Brotli.NET?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Brotli.NET)
+
 ### Excel, CSV, Word, and PDF
 - CSV
 	- [**CsvHelper**](https://github.com/JoshClose/CsvHelper)
@@ -210,20 +267,54 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 		> Create advanced Excel spreadsheets using .NET
 
 		[![GitHub Stars](https://img.shields.io/github/stars/EPPlusSoftware/EPPlus?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/EPPlusSoftware/EPPlus)
-		[![NuGet Downloads](https://img.shields.io/nuget/dt/EPPlus?label=Downloads&logo=nuget&cacheSeconds=3600)]( https://www.nuget.org/packages/EPPlus)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/EPPlus?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/EPPlus)
+
+	- [**NPOI**](https://github.com/nissl-lab/npoi)
+		> a .NET library that can read/write Office formats without Microsoft Office installed. No COM+, no interop.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/nissl-lab/npoi?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/nissl-lab/npoi)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/NPOI?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/NPOI)
+
+- Word
+	- [**DocX**](https://github.com/xceedsoftware/DocX)
+		> DocX is a .NET library that allows developers to manipulate Microsoft Word files, in an easy and intuitive manner. DocX is fast, lightweight and best of all it does not require Microsoft Word or Office to be installed.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/xceedsoftware/DocX?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/xceedsoftware/DocX)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/DocX?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/DocX)
+	
+	- [**NPOI**](https://github.com/nissl-lab/npoi)
+		> a .NET library that can read/write Office formats without Microsoft Office installed. No COM+, no interop.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/nissl-lab/npoi?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/nissl-lab/npoi)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/NPOI?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/NPOI)
 	
 - PDF
-	- [**FastReport**](https://github.com/FastReports/FastReport)
-		> FastReport provides free open source report generator for .NET 5/.NET Core/.NET Framework. You can use the FastReport Open Source in MVC, Web API, console applications.
+	- Reporting
+		- [**FastReport**](https://github.com/FastReports/FastReport)
+			> FastReport provides free open source report generator for .NET 5/.NET Core/.NET Framework. You can use the FastReport Open Source in MVC, Web API, console applications.
 
-		[![GitHub Stars](https://img.shields.io/github/stars/FastReports/FastReport?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/FastReports/FastReport)
-		[![NuGet Downloads](https://img.shields.io/nuget/dt/FastReport.OpenSource?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/FastReport.OpenSource/)
-	
-	- [**PdfReport.Core**](https://github.com/VahidN/PdfReport.Core)
-		> PdfReport.Core is a code first reporting engine, which is built on top of the iTextSharp.LGPLv2.Core and EPPlus.Core libraries
+			[![GitHub Stars](https://img.shields.io/github/stars/FastReports/FastReport?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/FastReports/FastReport)
+			[![NuGet Downloads](https://img.shields.io/nuget/dt/FastReport.OpenSource?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/FastReport.OpenSource/)
 		
-		[![GitHub Stars](https://img.shields.io/github/stars/VahidN/PdfReport.Core?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/VahidN/PdfReport.Core)
-		[![NuGet Downloads](https://img.shields.io/nuget/dt/PdfRpt.Core?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/PdfRpt.Core/)
+		- [**PdfReport.Core**](https://github.com/VahidN/PdfReport.Core)
+			> PdfReport.Core is a code first reporting engine, which is built on top of the iTextSharp.LGPLv2.Core and EPPlus.Core libraries
+			
+			[![GitHub Stars](https://img.shields.io/github/stars/VahidN/PdfReport.Core?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/VahidN/PdfReport.Core)
+			[![NuGet Downloads](https://img.shields.io/nuget/dt/PdfRpt.Core?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/PdfRpt.Core/)
+	
+	- Renderers
+		- [**DinkToPdf**](https://github.com/rdvojmoc/DinkToPdf)
+			> .NET Core P/Invoke wrapper for wkhtmltopdf library that uses Webkit engine to convert HTML pages to PDF.
+
+			[![GitHub Stars](https://img.shields.io/github/stars/rdvojmoc/DinkToPdf?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/rdvojmoc/DinkToPdf)
+			[![NuGet Downloads](https://img.shields.io/nuget/dt/DinkToPdf?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/DinkToPdf)
+
+	- Create, Edit and Extract
+		- [**itext7**](https://github.com/itext/itext7-dotnet)
+			> iText 7 allows you to build custom PDF scenarios for web, mobile, desktop or cloud apps in .NET.
+
+			[![GitHub Stars](https://img.shields.io/github/stars/itext/itext7-dotnet?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/itext/itext7-dotnet)
+			[![NuGet Downloads](https://img.shields.io/nuget/dt/itext7?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/itext7)
 	
 ### DateTime
 - [**NodaTime**](https://github.com/nodatime/nodatime)
@@ -353,6 +444,20 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 		
 		[![GitHub Stars](https://img.shields.io/github/stars/nbuilder/nbuilder?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/nbuilder/nbuilder)
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/nbuilder?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/nbuilder)
+
+- Helpers
+	- [**Respawn**](https://github.com/jbogard/Respawn)
+		> Respawn is a small utility to help in resetting test databases to a clean state. Instead of deleting data at the end of a test or rolling back a transaction, Respawn resets the database back to a clean checkpoint by intelligently deleting data from tables.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/jbogard/Respawn?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/jbogard/Respawn)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Respawn?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Respawn)
+
+- HttpClient Mocking
+	- [**RichardSzalay.MockHttp**](https://github.com/richardszalay/mockhttp)
+		> MockHttp is a testing layer for Microsoft's HttpClient library. It allows stubbed responses to be configured for matched HTTP requests and can be used to test your application's service layer.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/richardszalay/mockhttp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/richardszalay/mockhttp)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/RichardSzalay.MockHttp?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/RichardSzalay.MockHttp)
 
 ### UI Testing
 - [**Selenium.WebDriver**](https://github.com/SeleniumHQ/selenium)
