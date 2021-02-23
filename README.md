@@ -15,18 +15,17 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 - [ORM](#orm)
 - [NoSQL](#nosql)
 - [Query Builder](#query-builder)
-- [Commands/Events Dispatcher](#commandsevents-dispatcher)
+- [Messaging and Queue](#messaging-and-queue)
 - [Http Client - REST](#http-client--rest)
 - [Security](#security)
-- [Excel, CSV, Word, and PDF](#excel-csv-word-and-pdf)
+- [CSV, Excel, Word, and PDF](#csv-excel-word-and-pdf)
 - [DateTime](#datetime)
 - [Linq](#linq)
 - [JWT](#jwt)
 - [HtmlParser](#htmlparser)
-- [Profiler](#profiler)
+- [Profiler](#Profling-Tracing-and-Metrics)
 - [Caching](#caching)
 - [Testing](#testing)
-- [UI Testing](#ui-testing)
 - [OpenAPI](#openapi)
 - [Logging](#logging)
 - [Console](#console)
@@ -166,18 +165,51 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![GitHub Stars](https://img.shields.io/github/stars/sqlkata/querybuilder?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/sqlkata/querybuilder)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/SqlKata?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/SqlKata)
 
-### Commands/Events Dispatcher
-- [**MediatR**](https://github.com/jbogard/MediatR)
-	> Simple, unambitious mediator implementation in .NET
-	
-	[![GitHub Stars](https://img.shields.io/github/stars/jbogard/MediatR?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/jbogard/MediatR)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/mediatr?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/mediatr)
+### Messaging and Queue
+- Commands/Events Dispatcher
+	- [**MediatR**](https://github.com/jbogard/MediatR)
+		> Simple, unambitious mediator implementation in .NET
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/jbogard/MediatR?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/jbogard/MediatR)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/mediatr?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/mediatr)
 
-- [**Brighter**](https://github.com/BrighterCommand/Brighter)
-	> The Command Dispatcher pattern is an addition to the Command design pattern that decouples the dispatcher for a service from its execution.
-	
-	[![GitHub Stars](https://img.shields.io/github/stars/BrighterCommand/Brighter?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/BrighterCommand/Brighter)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/paramore.brighter?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/paramore.brighter)
+	- [**Brighter**](https://github.com/BrighterCommand/Brighter)
+		> The Command Dispatcher pattern is an addition to the Command design pattern that decouples the dispatcher for a service from its execution.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/BrighterCommand/Brighter?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/BrighterCommand/Brighter)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/paramore.brighter?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/paramore.brighter)
+
+- Message Bus
+	- [**Confluent.Kafka**](https://github.com/confluentinc/confluent-kafka-dotnet)
+		> Confluent's Apache Kafka .NET client.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/confluentinc/confluent-kafka-dotnet?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/confluentinc/confluent-kafka-dotnet)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Confluent.Kafka?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Confluent.Kafka)
+
+	- [**kafka-sharp**](https://github.com/criteo/kafka-sharp)
+		> A .NET implementation of the Apache Kafka client side protocol geared toward performance (both throughput and memory wise). It is especially suited for scenarios where applications are streaming a large number of messages across a fair number of topics.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/criteo/kafka-sharp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/criteo/kafka-sharp)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/kafka-sharp?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/kafka-sharp)
+
+	- [**RabbitMQ.Client**](https://github.com/rabbitmq/rabbitmq-dotnet-client)
+		> RabbitMQ .NET client
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/rabbitmq/rabbitmq-dotnet-client?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/rabbitmq/rabbitmq-dotnet-client)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/RabbitMQ.Client?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/RabbitMQ.Client)
+
+- Service Bus
+	- [**MassTransit**](https://github.com/MassTransit/MassTransit)
+		> MassTransit is a free, open-source distributed application framework for .NET. MassTransit makes it easy to create applications and services that leverage message-based, loosely-coupled asynchronous communication for higher availability, reliability, and scalability.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/MassTransit/MassTransit?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/MassTransit/MassTransit)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/MassTransit?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MassTransit)
+
+	- [**NServiceBus**](https://github.com/Particular/NServiceBus)
+		> MassTransit is a free, open-source distributed application framework for .NET. MassTransit makes it easy to create applications and services that leverage message-based, loosely-coupled asynchronous communication for higher availability, reliability, and scalability.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/Particular/NServiceBus?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/Particular/NServiceBus)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/NServiceBus?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/NServiceBus)
 
 ### Http Client / REST
 - [**Refit**](https://github.com/reactiveui/refit)
@@ -254,7 +286,7 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 		[![GitHub Stars](https://img.shields.io/github/stars/XieJJ99/brotli.net?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/XieJJ99/brotli.net)
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/Brotli.NET?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Brotli.NET)
 
-### Excel, CSV, Word, and PDF
+### CSV, Excel, Word, and PDF
 - CSV
 	- [**CsvHelper**](https://github.com/JoshClose/CsvHelper)
 		> Library to help reading and writing CSV files
@@ -345,12 +377,27 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![GitHub Stars](https://img.shields.io/github/stars/AngleSharp/AngleSharp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/AngleSharp/AngleSharp)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/AngleSharp?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/AngleSharp)
 
-### Profiler
-- [**MiniProfiler**](https://github.com/MiniProfiler/dotnet)
-	> A simple but effective mini-profiler for ASP.NET (and Core) websites.
+### Profling, Tracing, and Metrics
+- Profiling/Monitoring
+	- [**MiniProfiler**](https://github.com/MiniProfiler/dotnet)
+		> A simple but effective mini-profiler for ASP.NET (and Core) websites.
 
-	[![GitHub Stars](https://img.shields.io/github/stars/MiniProfiler/dotnet?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/MiniProfiler/dotnet)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/MiniProfiler.AspNetCore.Mvc?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MiniProfiler.AspNetCore.Mvc)
+		[![GitHub Stars](https://img.shields.io/github/stars/MiniProfiler/dotnet?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/MiniProfiler/dotnet)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/MiniProfiler.AspNetCore.Mvc?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MiniProfiler.AspNetCore.Mvc)
+
+- Tracing
+	- [**prometheus-net**](https://github.com/prometheus-net/prometheus-net)
+		> .NET library to instrument your code with Prometheus metrics.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/prometheus-net/prometheus-net?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/prometheus-net/prometheus-net)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/prometheus-net?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/prometheus-net)
+	
+- Metrics
+	- [**App.Metrics**](https://github.com/AppMetrics/AppMetrics)
+		> App Metrics is an open-source and cross-platform .NET library used to record and report metrics within an application.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/AppMetrics/AppMetrics?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/AppMetrics/AppMetrics)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/App.Metrics?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/App.Metrics)
 
 ### Caching
 - InMemory
@@ -432,7 +479,7 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 		[![GitHub Stars](https://img.shields.io/github/stars/nsubstitute/NSubstitute?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/nsubstitute/NSubstitute)
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/NSubstitute?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/NSubstitute)
 
-- Test Data Generator
+- Fixture - Data Generator
 	- [**AutoFixture**](https://github.com/AutoFixture/AutoFixture)
 		> AutoFixture makes it easier for developers to do Test-Driven Development by automating non-relevant Test Fixture Setup, allowing the Test Developer to focus on the essentials of each test case.
 		
@@ -459,18 +506,85 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 		[![GitHub Stars](https://img.shields.io/github/stars/richardszalay/mockhttp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/richardszalay/mockhttp)
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/RichardSzalay.MockHttp?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/RichardSzalay.MockHttp)
 
-### UI Testing
-- [**Selenium.WebDriver**](https://github.com/SeleniumHQ/selenium)
-	> Selenium is a set of different software tools each with a different approach to supporting browser automation. These tools are highly flexible, allowing many options for locating and manipulating elements within a browser, and one of its key features is the support for automating multiple browser platforms.
-	
-	[![GitHub Stars](https://img.shields.io/github/stars/SeleniumHQ/selenium?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/SeleniumHQ/selenium)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/Selenium.WebDriver?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Selenium.WebDriver)
+- EF/Queryable Mocking
+	- [**Effort.EF6**](https://github.com/zzzprojects/EntityFramework-Effort)
+		> Effort is a powerful tool that enables a convenient way to create automated tests for Entity Framework based applications. [Learn more](https://entityframework-effort.net)
 
-- [**Puppeteer Sharp**](https://github.com/hardkoded/puppeteer-sharp)
-	>  Headless Chrome .NET API
+		[![GitHub Stars](https://img.shields.io/github/stars/zzzprojects/EntityFramework-Effort?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/zzzprojects/EntityFramework-Effort)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Effort.EF6?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Effort.EF6)
 
-	[![GitHub Stars](https://img.shields.io/github/stars/hardkoded/puppeteer-sharp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/hardkoded/puppeteer-sharp)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/PuppeteerSharp?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/PuppeteerSharp)
+	- [**MockQueryable**](https://github.com/romantitov/MockQueryable)
+		> Moking Entity Framework Core operations such as ToListAsync, FirstOrDefaultAsync etc.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/romantitov/MockQueryable?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/romantitov/MockQueryable)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/MockQueryable.Core?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MockQueryable.Core)
+
+- Temp Database
+	- [**EfCore.TestSupport**](https://github.com/JonPSmith/EfCore.TestSupport)
+		> Tools for helping in unit testing applications that use Entity Framework Core.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/JonPSmith/EfCore.TestSupport?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/JonPSmith/EfCore.TestSupport)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/EfCore.TestSupport?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/EfCore.TestSupport)
+
+	- [**Mongo2Go**](https://github.com/Mongo2Go/Mongo2Go)
+		> MongoDB for integration tests (.NET Core)
+
+		[![GitHub Stars](https://img.shields.io/github/stars/Mongo2Go/Mongo2Go?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/Mongo2Go/Mongo2Go)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Mongo2Go?label=Downloads&logo=nuget&cacheSeconds=3600)](https://nuget.org/packages/Mongo2Go)
+
+- Log Testing
+	- [**Serilog.Sinks.XUnit**](https://github.com/trbenning/serilog-sinks-xunit)
+		> The xunit test output sink for Serilog.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/trbenning/serilog-sinks-xunit?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/trbenning/serilog-sinks-xunit)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Serilog.Sinks.XUnit?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Serilog.Sinks.XUnit)
+
+- Snapshot Testing
+	- [**Snapshooter**](https://github.com/SwissLife-OSS/snapshooter)
+		> Snapshooter is a flexible snapshot testing tool to simplify the result validation in your unit tests in .NET
+
+		[![GitHub Stars](https://img.shields.io/github/stars/SwissLife-OSS/snapshooter?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/SwissLife-OSS/snapshooter)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Snapshooter?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Snapshooter)
+
+- BDD Testing
+	- [**SpecFlow**](https://github.com/SpecFlowOSS/SpecFlow)
+		> SpecFlow is a pragmatic BDD solution for .NET. It provides test automation for .NET (.NET Framework, .NET Core and Mono), based on the Gherkin specification language and integrates to Visual Studio.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/SpecFlowOSS/SpecFlow?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/SpecFlowOSS/SpecFlow)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/SpecFlow?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/SpecFlow)
+
+- UI Testing
+	- [**Selenium.WebDriver**](https://github.com/SeleniumHQ/selenium)
+		> Selenium is a set of different software tools each with a different approach to supporting browser automation. These tools are highly flexible, allowing many options for locating and manipulating elements within a browser, and one of its key features is the support for automating multiple browser platforms.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/SeleniumHQ/selenium?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/SeleniumHQ/selenium)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Selenium.WebDriver?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Selenium.WebDriver)
+
+	- [**Puppeteer Sharp**](https://github.com/hardkoded/puppeteer-sharp)
+		>  Headless Chrome .NET API
+
+		[![GitHub Stars](https://img.shields.io/github/stars/hardkoded/puppeteer-sharp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/hardkoded/puppeteer-sharp)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/PuppeteerSharp?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/PuppeteerSharp)
+
+- Code Coverage
+	- [**Coverlet**](https://github.com/coverlet-coverage/coverlet)
+		>  Cross platform code coverage for .NET
+
+		[![GitHub Stars](https://img.shields.io/github/stars/coverlet-coverage/coverlet?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/coverlet-coverage/coverlet)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/coverlet.collector?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/coverlet.collector)
+
+- XUnit Extensions\Helpers
+	- [**xunit.analyzers**](https://github.com/xunit/xunit.analyzers)
+		> Code Analyzers for projects using xUnit.net that help find and fix frequent issues when writing tests.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/xunit/xunit.analyzers?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/xunit/xunit.analyzers)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/xunit.analyzers?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/xunit.analyzers)
+
+	- [**xunit.categories**](https://github.com/brendanconnolly/Xunit.Categories)
+		> Friendlier attributes to help categorize your tests.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/brendanconnolly/Xunit.Categories?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/brendanconnolly/Xunit.Categories)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/xunit.categories?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/xunit.categories)
 
 ### OpenAPI
 - [**Swagger (Swashbuckle)**](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
