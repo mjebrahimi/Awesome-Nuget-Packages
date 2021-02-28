@@ -11,17 +11,19 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 - [IoC](#ioc)
 - [Task Scheduler/Background Job](#task-scheduler--background-job)
 - [Serialization](#serialization)
-- [Validation](#validation)
-- [ORM](#orm)
+- [Database, Database Drivers, and Migration](#database-database-drivers-and-migration)
+- [ORM](#orm-and-micro-orm)
 - [NoSQL](#nosql)
 - [Query Builder](#query-builder)
 - [Messaging and Queue](#messaging-and-queue)
 - [Http Client - REST](#http-client--rest)
+- [Mail and SMTP Server](#mail-and-smtp-server)
 - [Security](#security)
 - [CSV, Excel, Word, and PDF](#csv-excel-word-and-pdf)
 - [DateTime](#datetime)
 - [Linq](#linq)
-- [JWT](#jwt)
+- [Reflection and Expression](#reflection-and-expression)
+- [Validation](#validation)
 - [HtmlParser](#htmlparser)
 - [Profiler](#Profling-Tracing-and-Metrics)
 - [Caching](#caching)
@@ -101,45 +103,86 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 		
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/System.Xml.XmlSerializer?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/System.Xml.XmlSerializer)
 
-### Validation
-- [**FluentValidation**](https://github.com/FluentValidation/FluentValidation)
-	> A popular .NET validation library for building strongly-typed validation rules.
+### Database, Database Drivers, and Migration
+- Database
+	- [**LiteDB**](https://github.com/mbdavid/litedb)
+		> LiteDB is a small, fast and lightweight .NET NoSQL embedded database.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/mbdavid/litedb?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/mbdavid/litedb)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/LiteDB?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/LiteDB)
 
-	[![GitHub Stars](https://img.shields.io/github/stars/FluentValidation/FluentValidation?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/FluentValidation/FluentValidation)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/FluentValidation?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/FluentValidation)
+	- [**RavenDB.Client**](https://github.com/ravendb/ravendb)
+		> An ACID NoSQL Document Database.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/ravendb/ravendb?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/ravendb/ravendb)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/RavenDB.Client?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/RavenDB.Client)
 
-### ORM 
-- [**Entity Framework**](https://github.com/dotnet/ef6)
-	> Entity Framework 6 (EF6) is an object-relational mapper that enables .NET developers to work with relational data using domain-specific objects. It eliminates the need for most of the data-access code that developers usually need to write.
+- Database Connector
+	- [**Npgsql**](https://github.com/npgsql/Npgsql)
+		> Npgsql is the .NET data provider for PostgreSQL.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/npgsql/Npgsql?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/npgsql/Npgsql)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Npgsql?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Npgsql)
 
-	[![GitHub Stars](https://img.shields.io/github/stars/dotnet/ef6?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/dotnet/ef6)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/EntityFramework?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/EntityFramework)
+	- [**MongoDB.Driver**](https://github.com/mongodb/mongo-csharp-driver)
+		> The official MongoDB C#/.NET Driver provides asynchronous interaction with MongoDB.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/mongodb/mongo-csharp-driver?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/mongodb/mongo-csharp-driver)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/MongoDB.Driver?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MongoDB.Driver)
 
-- [**Entity Framework Core**](https://github.com/dotnet/efcore)
-	> EF Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations.
+	- [**MySql.Data**](https://dev.mysql.com/downloads)
+		> MySql.Data.MySqlClient .NET Core Class Library.
+		
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/MySql.Data?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MySql.Data)
 
-	[![GitHub Stars](https://img.shields.io/github/stars/dotnet/efcore?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/dotnet/efcore)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/Microsoft.EntityFrameworkCore?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore)
+- Database Migrations
+	- [**FluentMigrator**](https://github.com/fluentmigrator/fluentmigrator)
+		> Fluent Migrator is a migration framework for .NET much like Ruby on Rails Migrations.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/fluentmigrator/fluentmigrator?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/fluentmigrator/fluentmigrator)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/FluentMigrator?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/FluentMigrator)
 
-- [**Dapper**](https://github.com/StackExchange/Dapper)
-	> Dapper - a simple object mapper for .NET
+### ORM and Micro-ORM 
+- ORM
+	- [**Entity Framework**](https://github.com/dotnet/ef6)
+		> Entity Framework 6 (EF6) is an object-relational mapper that enables .NET developers to work with relational data using domain-specific objects. It eliminates the need for most of the data-access code that developers usually need to write.
 
-	[![GitHub Stars](https://img.shields.io/github/stars/StackExchange/Dapper?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/StackExchange/Dapper)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/Dapper?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Dapper)
+		[![GitHub Stars](https://img.shields.io/github/stars/dotnet/ef6?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/dotnet/ef6)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/EntityFramework?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/EntityFramework)
 
-- [**linq2db**](https://github.com/linq2db/linq2db)
-	> Linq to database provider.
+	- [**Entity Framework Core**](https://github.com/dotnet/efcore)
+		> EF Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations.
 
-	[![GitHub Stars](https://img.shields.io/github/stars/linq2db/linq2db?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/linq2db/linq2db)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/linq2db?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/linq2db)
-	
+		[![GitHub Stars](https://img.shields.io/github/stars/dotnet/efcore?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/dotnet/efcore)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Microsoft.EntityFrameworkCore?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore)
+
+	- [**linq2db**](https://github.com/linq2db/linq2db)
+		> Linq to database provider.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/linq2db/linq2db?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/linq2db/linq2db)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/linq2db?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/linq2db)
+
+- Micro ORM
+	- [**Dapper**](https://github.com/StackExchange/Dapper)
+		> Dapper - a simple object mapper for .NET
+
+		[![GitHub Stars](https://img.shields.io/github/stars/StackExchange/Dapper?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/StackExchange/Dapper)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Dapper?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Dapper)
+
+	- [**ServiceStack.OrmLite**](https://github.com/ServiceStack/ServiceStack.OrmLite)
+		>  Fast, Simple, Typed ORM for .NET
+
+		[![GitHub Stars](https://img.shields.io/github/stars/ServiceStack/ServiceStack.OrmLite?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/ServiceStack/ServiceStack.OrmLite)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/ServiceStack.OrmLite?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/ServiceStack.OrmLite)
+
+- SQL Query Builder
+	- [**SqlKata**](https://github.com/sqlkata/querybuilder)
+		> SqlKata Query Builder is a powerful SQL Query Builder written in C#.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/sqlkata/querybuilder?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/sqlkata/querybuilder)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/SqlKata?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/SqlKata)
+
 ### NoSQL
-- [**MongoDb**](https://github.com/mongodb/mongo-csharp-driver)
-	> The official MongoDB C#/.NET Driver provides asynchronous interaction with MongoDB.
-	
-	[![GitHub Stars](https://img.shields.io/github/stars/mongodb/mongo-csharp-driver?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/mongodb/mongo-csharp-driver)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/MongoDB.Driver?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MongoDB.Driver)
-
 - [**Elastic**](https://github.com/elastic/elasticsearch-net)
 	> Exposes all the Elasticsearch API endpoints but leaves you in control of building the request and response bodies. 
 
@@ -151,19 +194,6 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	
 	[![GitHub Stars](https://img.shields.io/github/stars/StackExchange/StackExchange.Redis?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/StackExchange/StackExchange.Redis)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/StackExchange.Redis?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/StackExchange.Redis)
-
-- [**LiteDB**](https://github.com/mbdavid/litedb)
-	> LiteDB is a small, fast and lightweight .NET NoSQL embedded database.
-	
-	[![GitHub Stars](https://img.shields.io/github/stars/mbdavid/litedb?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/mbdavid/litedb)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/LiteDB?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/LiteDB)
-
-### Query Builder
-- [**SqlKata**](https://github.com/sqlkata/querybuilder)
-	> SqlKata Query Builder is a powerful SQL Query Builder written in C#.
-	
-	[![GitHub Stars](https://img.shields.io/github/stars/sqlkata/querybuilder?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/sqlkata/querybuilder)
-	[![NuGet Downloads](https://img.shields.io/nuget/dt/SqlKata?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/SqlKata)
 
 ### Messaging and Queue
 - Commands/Events Dispatcher
@@ -211,6 +241,41 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 		[![GitHub Stars](https://img.shields.io/github/stars/Particular/NServiceBus?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/Particular/NServiceBus)
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/NServiceBus?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/NServiceBus)
 
+### API and RPC
+- API Frameworks
+	- [**ServiceStack**](https://github.com/ServiceStack/ServiceStack)
+		> ServiceStack is a simple and fast alternative to WCF, MVC and Web API in one cohesive framework for all your services and web apps that's intuitive and Easy to use!
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/ServiceStack/ServiceStack?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/ServiceStack/ServiceStack)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/ServiceStack?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/ServiceStack)
+	
+	- [**Microsoft.OData.Core**](https://github.com/OData/odata.net)
+		> Open Data Protocol - .NET Libraries and Frameworks 
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/OData/odata.net?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/OData/odata.net)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Microsoft.OData.Core?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Microsoft.OData.Core)
+
+- gRPC
+	- [**Grpc.Core**](https://github.com/grpc/grpc)
+		> A C# implementation of gRPC based on the native gRPC Core library.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/grpc/grpc?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/grpc/grpc)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Grpc.Core?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Grpc.Core)
+
+- GraphQL
+	- [**HotChocolate**](https://github.com/ChilliCream/hotchocolate)
+		> The Hot Chocolate GraphQL query execution engine and query validation.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/ChilliCream/hotchocolate?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/ChilliCream/hotchocolate)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/HotChocolate?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/HotChocolate)
+
+- WCF - SOAP
+	- [**SoapCore**](https://github.com/DigDes/SoapCore)
+		> SOAP protocol middleware for ASP.NET Core.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/DigDes/SoapCore?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/DigDes/SoapCore)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/SoapCore?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/SoapCore)
+
 ### Http Client / REST
 - [**Refit**](https://github.com/reactiveui/refit)
 	> The automatic type-safe REST library for Xamarin and .NET
@@ -229,6 +294,40 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	
 	[![GitHub Stars](https://img.shields.io/github/stars/restsharp/RestSharp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/restsharp/RestSharp)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/RestSharp?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/RestSharp)
+
+### Mail and SMTP Server
+- Mail
+	- [**MailKit**](https://github.com/jstedfast/MailKit)
+		> MailKit is an Open Source cross-platform .NET mail-client library that is based on MimeKit and optimized for mobile devices.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/jstedfast/MailKit?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/jstedfast/MailKit)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/MailKit?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MailKit)
+
+- Mail Service SDK
+	- [**Sendgrid**](https://github.com/sendgrid/sendgrid-csharp)
+		> The Official Twilio SendGrid Led, Community Driven C#, .NET Standard, .NET Core API Library.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/sendgrid/sendgrid-csharp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/sendgrid/sendgrid-csharp)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/SendGrid?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/SendGrid)
+
+	- [**SendGrid.SmtpApi**](https://github.com/sendgrid/smtpapi-csharp)
+		> Easily build SendGrid SMTPAPI headers.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/sendgrid/smtpapi-csharp?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/sendgrid/smtpapi-csharp)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/SendGrid.SmtpApi?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/SendGrid.SmtpApi)
+
+	- [**SendGrid.CSharp.HTTP.Client**](https://github.com/sendgrid/csharp-http-client)
+		> A Simple Fluent REST API Client.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/sendgrid/csharp-http-client?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/sendgrid/csharp-http-client)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/SendGrid.CSharp.HTTP.Client?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/SendGrid.CSharp.HTTP.Client)
+
+- SMTP Server and POP3
+	- [**netDumbster**](https://github.com/cmendible/netDumbster)
+		> netDumbster is a .NET Fake SMTP Server clone of the popular Dumbster.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/cmendible/netDumbster?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/cmendible/netDumbster)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/netDumbster?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/netDumbster)
 
 ### Security
 - Security Libraries
@@ -362,7 +461,40 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![GitHub Stars](https://img.shields.io/github/stars/morelinq/MoreLINQ?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/morelinq/MoreLINQ)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/morelinq?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/morelinq)
 
-### JWT
+### Reflection and Expression
+- Reflection
+	- [**FastMember**](https://github.com/mgravell/fast-member)
+		> In .NET reflection is slow... well, kinda slow. If you need access to the members of an arbitrary type, with the type and member-names known only at runtime - then it is frankly hard (especially for DLR types). This library makes such access easy and fast.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/mgravell/fast-member?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/mgravell/fast-member)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/FastMember?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/FastMember)
+
+- Expression
+	- [**System.Linq.Dynamic.Core**](https://github.com/zzzprojects/System.Linq.Dynamic.Core)
+		> This is a .NET Standard / .NET Core port of the the Microsoft assembly for the .NET 4.0 Dynamic language functionality. [EF Core Extension](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.DynamicLinq)
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/zzzprojects/System.Linq.Dynamic.Core?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/zzzprojects/System.Linq.Dynamic.Core)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/System.Linq.Dynamic.Core?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/System.Linq.Dynamic.Core)
+
+- Expression Builder
+	- [**Castle.DynamicLinqQueryBuilder**](https://github.com/castle-it/dynamic-linq-query-builder)
+		> A truly generic and dynamic linq query builder to compliment jQuery QueryBuilder and other dynamic linq query generation needs.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/castle-it/dynamic-linq-query-builder?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/castle-it/dynamic-linq-query-builder)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Castle.DynamicLinqQueryBuilder?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Castle.DynamicLinqQueryBuilder)
+
+- Expressions Interpreter/Evaluator
+	- [**Z.Expressions.Eval**](https://eval-expression.net)
+		> Evaluate, Compile and Execute C# code at runtime.
+		
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Z.Expressions.Eval?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Z.Expressions.Eval)
+
+### Validation
+- [**FluentValidation**](https://github.com/FluentValidation/FluentValidation)
+	> A popular .NET validation library for building strongly-typed validation rules.
+
+	[![GitHub Stars](https://img.shields.io/github/stars/FluentValidation/FluentValidation?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/FluentValidation/FluentValidation)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/FluentValidation?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/FluentValidation)
 
 ### HtmlParser
 - [**HtmlAgilityPack**](https://github.com/zzzprojects/html-agility-pack)
@@ -619,6 +751,28 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 
 		[![GitHub Stars](https://img.shields.io/github/stars/getsentry/sentry-dotnet?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/getsentry/sentry-dotnet)
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/Sentry?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Sentry)
+
+### Templating
+- Template Engine
+	- [**DotLiquid**](https://github.com/dotliquid/dotliquid)
+		> .NET Port of Tobias Lütke's Liquid template language.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/dotliquid/dotliquid?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/dotliquid/dotliquid)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/DotLiquid?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/DotLiquid)
+
+- Razor Templating (Core)
+	- [**RazorLight**](https://github.com/toddams/RazorLight)
+		> Template engine based on Microsoft's Razor parsing engine for .NET Core.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/toddams/RazorLight?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/toddams/RazorLight)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/RazorLight?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/RazorLight)
+
+- Razor Templating MVC5
+	- [**RazorEngine**](https://github.com/Antaris/RazorEngine)
+		> Open source templating engine based on Microsoft's Razor parsing engine.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/Antaris/RazorEngine?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/Antaris/RazorEngine)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/RazorEngine?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/RazorEngine)
 
 ### Console
 - [**Spectre.Console**](https://github.com/spectresystems/spectre.console)
