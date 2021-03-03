@@ -14,7 +14,6 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 - [Database, Database Drivers, and Migration](#database-database-drivers-and-migration)
 - [ORM](#orm-and-micro-orm)
 - [NoSQL](#nosql)
-- [Query Builder](#query-builder)
 - [Messaging and Queue](#messaging-and-queue)
 - [Http Client - REST](#http-client--rest)
 - [Mail and SMTP Server](#mail-and-smtp-server)
@@ -175,12 +174,76 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 		[![GitHub Stars](https://img.shields.io/github/stars/ServiceStack/ServiceStack.OrmLite?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/ServiceStack/ServiceStack.OrmLite)
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/ServiceStack.OrmLite?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/ServiceStack.OrmLite)
 
+- Entity Framework Core Extensions and Helpers
+	- [**EFCore.BulkExtensions**](https://github.com/borisdj/EFCore.BulkExtensions)
+		> Entity Framework Core Bulk Batch Extensions for Insert Update Delete and Read (CRUD) operations on SQL Server and SQLite.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/borisdj/EFCore.BulkExtensions?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/borisdj/EFCore.BulkExtensions)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/EFCore.BulkExtensions?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/EFCore.BulkExtensions)
+
+	- [**Z.EntityFramework.Plus.EFCore**](https://github.com/zzzprojects/EntityFramework-Plus)
+		> Entity Framework Plus extends your DbContext with must-haves features: Include Filter, Auditing, Caching, Query Future, Batch Delete, Batch Update, and more.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/zzzprojects/EntityFramework-Plus?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/zzzprojects/EntityFramework-Plus)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Z.EntityFramework.Plus.EFCore?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Z.EntityFramework.Plus.EFCore)
+
+	- [**EF Core Second Level Cache Interceptor**](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
+		> Entity Framework Core Second Level Caching Library.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/VahidN/EFCoreSecondLevelCacheInterceptor?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/EFCoreSecondLevelCacheInterceptor?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/EFCoreSecondLevelCacheInterceptor)
+
+- Entity Framework Core Providers
+	- [**Microsoft.EntityFrameworkCore.SqlServer**](https://github.com/dotnet/efcore)
+		> Microsoft SQL Server database provider for Entity Framework Core.
+		
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Microsoft.EntityFrameworkCore.SqlServer?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer)
+
+	- [**Microsoft.EntityFrameworkCore.InMemory**](https://github.com/dotnet/efcore)
+		> In-memory database provider for Entity Framework Core (to be used for testing purposes).
+		
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Microsoft.EntityFrameworkCore.InMemory?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.InMemory)
+
+	- [**MySql.Data.EntityFrameworkCore**](https://dev.mysql.com/doc/connector-net/en/connector-net-entityframework-core.html)
+		> MySql database provider for Entity Framework Core.
+		
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/MySql.Data.EntityFrameworkCore?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MySql.Data.EntityFrameworkCore)
+
+	- [**Npgsql.EntityFrameworkCore.PostgreSQL**](https://github.com/npgsql/efcore.pg)
+		> Entity Framework Core provider for PostgreSQL.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/npgsql/efcore.pg?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/npgsql/efcore.pg)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Npgsql.EntityFrameworkCore.PostgreSQL?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Npgsql.EntityFrameworkCore.PostgreSQL)
+
+- Dapper Extensions and Helpers
+	- [**Dapper.Contrib**](https://github.com/StackExchange/Dapper)
+		> The official collection of get, insert, update and delete helpers for Dapper.net. Also handles lists of entities and optional "dirty" tracking of interface-based entities.
+		
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Dapper.Contrib?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Dapper.Contrib)
+
+	- [**Dapper.SqlBuilder**](https://github.com/StackExchange/Dapper)
+		> The Dapper SqlBuilder component, for building SQL queries dynamically.
+		
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Dapper.SqlBuilder?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Dapper.SqlBuilder)
+
+	- [**Dapper.FluentMap**](https://github.com/henkmollema/Dapper-FluentMap)
+		> Simple API to fluently map POCO properties to database columns when using Dapper.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/henkmollema/Dapper-FluentMap?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/henkmollema/Dapper-FluentMap)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Dapper.FluentMap?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Dapper.FluentMap)
+
 - SQL Query Builder
 	- [**SqlKata**](https://github.com/sqlkata/querybuilder)
 		> SqlKata Query Builder is a powerful SQL Query Builder written in C#.
 		
 		[![GitHub Stars](https://img.shields.io/github/stars/sqlkata/querybuilder?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/sqlkata/querybuilder)
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/SqlKata?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/SqlKata)
+
+	- [**ExpressionExtensionSQL**](https://github.com/gambarra/ExpressionExtensionSQL)
+		> ExpressionExtensionSQL is a NuGet library which you can add to your project to achieve lambda expression in SQL code. [Dapper Extension](https://www.nuget.org/packages/ExpressionExtensionSQL.Dapper)
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/gambarra/ExpressionExtensionSQL?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/gambarra/ExpressionExtensionSQL)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/ExpressionExtensionSQL?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/ExpressionExtensionSQL)
 
 ### NoSQL
 - [**Elastic**](https://github.com/elastic/elasticsearch-net)
@@ -194,6 +257,40 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	
 	[![GitHub Stars](https://img.shields.io/github/stars/StackExchange/StackExchange.Redis?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/StackExchange/StackExchange.Redis)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/StackExchange.Redis?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/StackExchange.Redis)
+
+### MongoDb
+- MongoDb Helpers/Repository
+	- [**Mongo2Go**](https://github.com/Mongo2Go/Mongo2Go)
+		> MongoDB for integration tests & local debugging
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/Mongo2Go/Mongo2Go?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/Mongo2Go/Mongo2Go)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Mongo2Go?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Mongo2Go)
+
+	- [**MongoDbGenericRepository**](https://github.com/alexandre-spieser/mongodb-generic-repository)
+		> An example of generic repository implementation using the MongoDB C# Sharp 2.0 driver (async).
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/alexandre-spieser/mongodb-generic-repository?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/alexandre-spieser/mongodb-generic-repository)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/MongoDbGenericRepository?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MongoDbGenericRepository)
+
+- MongoDb Framework
+	- [**MongoFramework**](https://github.com/TurnerSoftware/MongoFramework)
+		> An "Entity Framework"-like interface for MongoDB.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/TurnerSoftware/MongoFramework?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/TurnerSoftware/MongoFramework)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/MongoFramework?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MongoFramework)
+
+- MongoDb Identity Integration
+	- [**AspNetCore.Identity.MongoDbCore**](https://github.com/alexandre-spieser/AspNetCore.Identity.MongoDbCore)
+		> A MongoDb UserStore and RoleStore adapter for Microsoft.AspNetCore.Identity 2.0. Allows you to use MongoDb instead of SQL server with Microsoft.AspNetCore.Identity 2.0.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/alexandre-spieser/AspNetCore.Identity.MongoDbCore?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/alexandre-spieser/AspNetCore.Identity.MongoDbCore)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/AspNetCore.Identity.MongoDbCore?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/AspNetCore.Identity.MongoDbCore)
+
+- MongoDb Migrations
+	- [**MongoDBMigrations**](https://bitbucket.org/i_am_a_kernel/mongodbmigrations/src/master/)
+		> MongoDbMigrations uses the official MongoDB C# Driver to migrate your documents in your mongo database via useful fluent API.
+		
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/MongoDBMigrations?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/MongoDBMigrations)
 
 ### Messaging and Queue
 - Commands/Events Dispatcher
@@ -453,6 +550,12 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 
 	[![GitHub Stars](https://img.shields.io/github/stars/nodatime/nodatime?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/nodatime/nodatime)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/NodaTime?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/NodaTime)
+
+- [**DateTimeExtensions**](https://github.com/joaomatossilva/DateTimeExtensions)
+	> This project is a merge of several common DateTime operations on the form of extensions to System.DateTime, including natural date difference text (precise and human rounded), holidays and working days calculations on several culture locales.
+
+	[![GitHub Stars](https://img.shields.io/github/stars/joaomatossilva/DateTimeExtensions?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/joaomatossilva/DateTimeExtensions)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/DateTimeExtensions?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/DateTimeExtensions)
 
 ### Linq
 - [**MoreLinq**](https://github.com/morelinq/MoreLINQ)
