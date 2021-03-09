@@ -37,7 +37,7 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 -->
 
 ### Object Mapper
-- [**AutoMapper**](https://github.com/AutoMapper/AutoMapper) 
+- [**AutoMapper**](https://github.com/AutoMapper/BrokenLinkTest) 
 	> A convention-based object-object mapper in .NET
 
 	[![GitHub Stars](https://img.shields.io/github/stars/AutoMapper/AutoMapper?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/AutoMapper/AutoMapper)
