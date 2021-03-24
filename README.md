@@ -366,6 +366,12 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 		[![GitHub Stars](https://img.shields.io/github/stars/ChilliCream/hotchocolate?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/ChilliCream/hotchocolate)
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/HotChocolate?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/HotChocolate)
 
+	- [**GraphQL for .NET**](https://github.com/graphql-dotnet/graphql-dotnet)
+		> An implementation of Facebook's GraphQL in .NET.
+		
+		[![GitHub Stars](https://img.shields.io/github/stars/graphql-dotnet/graphql-dotnet?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/graphql-dotnet/graphql-dotnet)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/GraphQL?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/GraphQL/)		
+
 - WCF - SOAP
 	- [**SoapCore**](https://github.com/DigDes/SoapCore)
 		> SOAP protocol middleware for ASP.NET Core.
