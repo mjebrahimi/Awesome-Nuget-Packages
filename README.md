@@ -24,7 +24,7 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 - [Reflection and Expression](#reflection-and-expression)
 - [Validation](#validation)
 - [HtmlParser](#htmlparser)
-- [Profiler](#Profling-Tracing-and-Metrics)
+- [Profiler](#profling-tracing-and-metrics)
 - [Caching](#caching)
 - [Testing](#testing)
 - [OpenAPI](#openapi)
