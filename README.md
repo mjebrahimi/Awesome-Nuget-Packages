@@ -666,6 +666,11 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 
 		[![GitHub Stars](https://img.shields.io/github/stars/MichaCo/CacheManager?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/MichaCo/CacheManager)
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/CacheManager.Core?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/CacheManager.Core)
+	- [**FusionCache**](https://github.com/jodydonetti/ZiggyCreatures.FusionCache)
+		> FusionCache is an easy to use, high performance and robust cache with an optional distributed 2nd layer and some advanced features.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/jodydonetti/ZiggyCreatures.FusionCache?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/jodydonetti/ZiggyCreatures.FusionCache)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/ZiggyCreatures.FusionCache?label=Downloads&logo=nuget&cacheSeconds=3600)](https://github.com/jodydonetti/ZiggyCreatures.FusionCache)
 
 - Second Level Cache
 	- [**EF Core Second Level Cache Interceptor**](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
