@@ -43,6 +43,12 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![GitHub Stars](https://img.shields.io/github/stars/AutoMapper/AutoMapper?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/AutoMapper/AutoMapper)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/AutoMapper?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/AutoMapper)
 
+- [**Mapperly**](https://github.com/riok/mapperly)
+	> A .NET source generator for generating object mappings. No runtime reflection.
+
+	[![GitHub Stars](https://img.shields.io/github/stars/riok/mapperly?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/riok/mapperly)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/Riok.Mapperly?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Riok.Mapperly)
+
 - [**Maspter**](https://github.com/MapsterMapper/Mapster)
 	> A fast, fun and stimulating object to object Mapper
 
