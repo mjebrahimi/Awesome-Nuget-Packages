@@ -792,6 +792,12 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/Serilog.Sinks.XUnit?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Serilog.Sinks.XUnit)
 
 - Snapshot Testing
+	- [**Verify**](https://github.com/VerifyTests/Verify)
+		> Verify is a snapshot testing tool that simplifies the assertion of complex data models and documents.
+
+		[![GitHub Stars](https://img.shields.io/github/stars/VerifyTests/Verify?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/VerifyTests/Verify)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/Verify?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Verify)
+
 	- [**Snapshooter**](https://github.com/SwissLife-OSS/snapshooter)
 		> Snapshooter is a flexible snapshot testing tool to simplify the result validation in your unit tests in .NET
 
@@ -799,10 +805,15 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/Snapshooter?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Snapshooter)
 
 - BDD Testing
-	- [**SpecFlow**](https://github.com/SpecFlowOSS/SpecFlow)
-		> SpecFlow is a pragmatic BDD solution for .NET. It provides test automation for .NET (.NET Framework, .NET Core and Mono), based on the Gherkin specification language and integrates to Visual Studio.
+	- [**LightBDD**](https://github.com/LightBDD/LightBDD)
+		> BDD framework allowing to create easy to read and maintain tests.
 
-		[![GitHub Stars](https://img.shields.io/github/stars/SpecFlowOSS/SpecFlow?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/SpecFlowOSS/SpecFlow)
+		[![GitHub Stars](https://img.shields.io/github/stars/LightBDD/LightBDD?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/LightBDD/LightBDD)
+		[![NuGet Downloads](https://img.shields.io/nuget/dt/LightBDD?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/LightBDD)
+
+	- **SpecFlow (Repo has been Removed)**
+		> **Discontinued** - SpecFlow is a pragmatic BDD solution for .NET. It provides test automation for .NET (.NET Framework, .NET Core and Mono), based on the Gherkin specification language and integrates to Visual Studio.
+
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/SpecFlow?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/SpecFlow)
 
 - UI Testing
