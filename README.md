@@ -55,6 +55,12 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 	[![GitHub Stars](https://img.shields.io/github/stars/MapsterMapper/Mapster?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/MapsterMapper/Mapster)
 	[![NuGet Downloads](https://img.shields.io/nuget/dt/Mapster?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Mapster)
 
+- [**SimpleMapper.Net**](https://github.com/giacomeli/SimpleMapper)
+	> Zero-configuration, convention-based object-to-object mapper powered by compiled expression trees. Open-source and MIT-licensed.
+
+	[![GitHub Stars](https://img.shields.io/github/stars/giacomeli/SimpleMapper?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/giacomeli/SimpleMapper)
+	[![NuGet Downloads](https://img.shields.io/nuget/dt/SimpleMapper.Net?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/SimpleMapper.Net)
+
 ### IoC
 - [**Autofac**](https://github.com/autofac/Autofac)
 	> Autofac is an IoC container for .NET. It manages the dependencies between classes so that applications stay easy to change as they grow in size and complexity.
