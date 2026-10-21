@@ -232,10 +232,10 @@ If you liked this repository or find it useful, please give it a star. Thanks!
 		
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/Dapper.SqlBuilder?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Dapper.SqlBuilder)
 
-	- [**Dapper.FluentMap**](https://github.com/henkmollema/Dapper-FluentMap)
-		> Simple API to fluently map POCO properties to database columns when using Dapper.
+	- [**Dapper.FluentMap**](https://github.com/rodri-oliveira-dev/Dapper-FluentMap)
+		> Actively maintained fluent mapping for Dapper, with explicit and convention-based column mapping, immutable object materialization, mapping profiles, and optional dependency injection, analyzers, and source generators.
 		
-		[![GitHub Stars](https://img.shields.io/github/stars/henkmollema/Dapper-FluentMap?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/henkmollema/Dapper-FluentMap)
+		[![GitHub Stars](https://img.shields.io/github/stars/rodri-oliveira-dev/Dapper-FluentMap?label=Stars&logo=github&cacheSeconds=3600)](https://github.com/rodri-oliveira-dev/Dapper-FluentMap)
 		[![NuGet Downloads](https://img.shields.io/nuget/dt/Dapper.FluentMap?label=Downloads&logo=nuget&cacheSeconds=3600)](https://www.nuget.org/packages/Dapper.FluentMap)
 
 - SQL Query Builder
